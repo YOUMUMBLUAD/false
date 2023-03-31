@@ -1,0 +1,41 @@
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Harlem Hub - South London 2", "Ocean")
+
+local Welcome = Window:NewTab("Welcome")
+    local WelcomeSection = Welcome:NewSection("Hello, ".. game.Players.LocalPlayer.Name .."")
+
+WelcomeSection:NewButton("Player : ".. game.Players.LocalPlayer.Name .." | ".. game.Players.LocalPlayer.UserId .."", "", function()
+end)
+
+WelcomeSection:NewButton("Game : ".. game.PlaceId .." | South London 2 (GAME)", "" , function()
+end)
+
+WelcomeSection:NewButton("Account Age : ".. game.Players.LocalPlayer.AccountAge .." | HarlemHub User : False", "" , function()
+end)
+
+local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+    
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player Exploits")
+    
+    local Teleport = Window:NewTab("Teleports")
+    local TeleportSection = Teleport:NewSection("Apartments")
+    
+    local Combat = Window:NewTab("Combat")
+    local CombatSection = Combat:NewSection("Combat")
+    
+    local AutoFarm = Window:NewTab("Auto Farm")
+            local AutoSection = AutoFarm:NewSection("Auto Farm")
+            
+            local Misc = Window:NewTab("Misc")
+            local MiscSection = Misc:NewSection("Misc")
+            
+             local Fun = Window:NewTab("Fun Scripts")
+    local FunScripts = Fun:NewSection("Fun Scripts")
+    
+    local Others = Window:NewTab("Others")
+    local OthersSection = Others:NewSection("Other Scripts")
+    
+    local Dupe = Window:NewTab("Dupe")
+    local DupeSection = Dupe:NewSection("HarlemHub's Dupe")
