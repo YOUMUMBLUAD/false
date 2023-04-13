@@ -13,6 +13,21 @@ end)
 WelcomeSection:NewButton("Account Age : ".. game.Players.LocalPlayer.AccountAge .." | HarlemHub User : False", "" , function()
 end)
 
+WelcomeSection:NewButton("Copy Discord Link", "Copies discord link to clipboard", function()
+        game.StarterGui:SetCore("SendNotification", {
+                        Title = "Copy Link";
+                        Text = "Copied the Link!";
+                        Icon = "https://www.roblox.com/library/3971489730/Money-icon?Category=Decals&SortType=Relevance&SortAggregation=AllTime&SearchKeyword=money+icon&CreatorId=0&Page=1&Position=6&SearchId=312fffd7-bfc2-4f93-90d3-9c87a6154f2d";
+                        Duration = "4";
+                    })
+setclipboard("https://discord.gg/UychJ4KX")
+toclipboard("https://discord.gg/UychJ4KX")
+    end)
+
+    WelcomeSection:NewKeybind("Toggle UI", "Toggle UI", Enum.KeyCode.RightControl, function()
+        Library:ToggleUI()
+    end)
+
 local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
     
