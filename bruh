@@ -15,8 +15,8 @@ end)
 
 WelcomeSection:NewButton("Copy Discord Link", "Copies discord link to clipboard", function()
         game.StarterGui:SetCore("SendNotification", {
-                        Title = "Copy Link";
-                        Text = "Copied the Link!";
+                        Title = "Copy Discord Link";
+                        Text = "Successfully copied the link.";
                         Icon = "https://www.roblox.com/library/3971489730/Money-icon?Category=Decals&SortType=Relevance&SortAggregation=AllTime&SearchKeyword=money+icon&CreatorId=0&Page=1&Position=6&SearchId=312fffd7-bfc2-4f93-90d3-9c87a6154f2d";
                         Duration = "4";
                     })
