@@ -49,7 +49,7 @@ TextButton.TextSize = 24.000
 TextButton.MouseButton1Down:connect(function()
 game.StarterGui:SetCore("SendNotification", {
                         Title = "Silent Aim Module";
-                        Text = "Success.";
+                        Text = "Silent Aim is on.";
                         Icon = "https://www.roblox.com/library/3971489730/Money-icon?Category=Decals&SortType=Relevance&SortAggregation=AllTime&SearchKeyword=money+icon&CreatorId=0&Page=1&Position=6&SearchId=312fffd7-bfc2-4f93-90d3-9c87a6154f2d";
                         Duration = "4";
                     })
