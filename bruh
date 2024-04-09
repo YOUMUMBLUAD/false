@@ -32,7 +32,7 @@ TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.Position = UDim2.new(0, 0, 0.345679015, 0)
 TextLabel_2.Size = UDim2.new(0, 344, 0, 50)
 TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "This COULD be a bit laggy depending on your PC but it still works. Also once its on its on so you can't untoggle Silent Aim. Do you still want to use this?"
+TextLabel_2.Text = "This COULD make your gun shoot a bit slow depending on your PC but it still works. Also once its on its on so you can't untoggle Silent Aim. Do you still want to use this?"
 TextLabel_2.TextColor3 = Color3.fromRGB(200, 200, 200)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 20.000
@@ -49,7 +49,7 @@ TextButton.TextSize = 24.000
 TextButton.MouseButton1Down:connect(function()
 game.StarterGui:SetCore("SendNotification", {
                         Title = "Silent Aim Module";
-                        Text = "Silent Aim is on.";
+                        Text = "Success.";
                         Icon = "https://www.roblox.com/library/3971489730/Money-icon?Category=Decals&SortType=Relevance&SortAggregation=AllTime&SearchKeyword=money+icon&CreatorId=0&Page=1&Position=6&SearchId=312fffd7-bfc2-4f93-90d3-9c87a6154f2d";
                         Duration = "4";
                     })
